@@ -4,7 +4,7 @@ URL="https://raw.githubusercontent.com/manila/programmers.party/main/programmers
 MANN="programmers.party.7"
 MANS="man7"
 MANB="$( manpath | cut -d: -f1 )"
-MAND="$MAND/$MAND"
+MAND="$MANB/$MANS"
 
 curl -o "/tmp/$MANN" $URL
 gzip "/tmp/$MANN"
